@@ -41,7 +41,7 @@ def EnvironmentalSelection(pop_combine,N,M):
         k = N_ex-N
         index = []
         for i in range(k):
-            index.append(Distance_rank.index(Distance_temp[i]))    # 注意这的Distance_temp的索引一直是0，取最差的那个
+            index.append(Distance_rank.index(Distance_temp[0]))    # 注意这的Distance_temp的索引一直是0，取最差的那个
                                                                     # 这里的index是 pop_ex长度并没有改变的时候的index，要注意操作
             Distance[index[i]] = [float("inf")] * len(pop_ex)
 
