@@ -25,6 +25,6 @@ from PyEA import PyEA
 # problem---algorithm---population number---generation---encoding---decision number---obj number                      #
 #######################################################################################################################
 
-PyEA('ZDT2','MOEAD',200,200,'real',9,2)
+PyEA('DTLZ2','SPEA2',100,300,'real',5)
 
 

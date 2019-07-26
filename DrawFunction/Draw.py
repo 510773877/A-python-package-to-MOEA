@@ -14,7 +14,7 @@ def draw(problem,pop, M,  fig = None, ax = None):
             y.append(pop[i].obj[1])
         #plt.plot(PF[:,0],PF[:,1], label='PF',linewidth='0.7', alpha = 0.7, color = 'black')
         #plt.legend()
-        plt.scatter(x, y, marker='o', color='#00BFFF', s=15)
+        plt.scatter(x, y, marker='o', color='#0139DD', s=17)
 
         plt.xlabel('f1')
         plt.ylabel('f2')
@@ -28,7 +28,7 @@ def draw(problem,pop, M,  fig = None, ax = None):
             z.append(pop[i].obj[2])
         #fig = plt.figure()
         ax = Axes3D(fig)
-        ax.scatter(x, y, z, c='#1E90FF')
+        ax.scatter(x, y, z, c='#0139DD',s=22)
         ax.view_init(elev=40, azim=40)
         #plt.show()
         plt.draw()
