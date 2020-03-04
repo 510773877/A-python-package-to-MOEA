@@ -11,4 +11,4 @@ The programme is very easy to use, the demo in main.py will get you start.
 ###
 Hope this can help you.
 
-Thank you for use :).
+Thank you for use :)).
